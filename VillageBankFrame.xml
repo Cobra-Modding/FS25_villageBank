@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="VillageBankFrame">
+    <GuiElement profile="baseReference">
+        <GuiElement profile="fs25_menuContainer">
+            <GuiElement profile="fs25_menuHeaderPanel" position="-62px 92px">
+                <Bitmap profile="fs25_menuHeaderIconBg">
+                    <Text profile="villageBankHeaderMonogram" text="DB"/>
+                </Bitmap>
+                <Text profile="fs25_menuHeaderTitle" id="bankTitleText" text="DORFBANK"/>
+                <RoundCorner profile="fs25_shopMoneyBoxBg"/>
+                <BoxLayout profile="fs25_shopMoneyBox">
+                    <Text profile="fs25_shopBalance" text="KONTOSTAND:"/>
+                    <Text profile="fs25_shopMoney" id="currentBalanceText"/>
+                </BoxLayout>
+            </GuiElement>
+            <BoxLayout profile="fs25_subCategorySelectorTabbedBox" id="subCategoryBox">
+                <Button profile="fs25_subCategorySelectorTabbedTab" id="subCategoryTabs[1]" text="KONTEN" onClick="onClickTabAccounts"><ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/></Button>
+                <Button profile="fs25_subCategorySelectorTabbedTab" id="subCategoryTabs[2]" text="SPAREN" onClick="onClickTabSavings"><ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/></Button>
+                <Button profile="fs25_subCategorySelectorTabbedTab" id="subCategoryTabs[3]" text="FINANZIERUNG" onClick="onClickTabFinancing"><ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/></Button>
+                <Button profile="fs25_subCategorySelectorTabbedTab" id="subCategoryTabs[4]" text="LEASING" onClick="onClickTabLeasing"><ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/></Button>
+                <Button profile="fs25_subCategorySelectorTabbedTab" id="subCategoryTabs[5]" text="KREDIT" onClick="onClickTabCredit"><ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/></Button>
+                <Button profile="fs25_subCategorySelectorTabbedTab" id="subCategoryTabs[6]" text="BUCHUNGEN" onClick="onClickTabTransactions"><ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/></Button>
+            </BoxLayout>
+            <ThreePartBitmap profile="fs25_lineSeparatorTopHighlighted" position="-63px -57px" size="100% 2dp"/>
+            <MultiTextOption profile="fs25_subCategorySelectorTabbed" id="subCategoryPaging" position="0px -10px" onClick="onPagingChanged"/>
+        </GuiElement>
+    </GuiElement>
+</GUI>

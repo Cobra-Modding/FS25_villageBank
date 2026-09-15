@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="111">
+    <author>Marcus</author>
+    <version>1.0.0.0</version>
+    <title><de>Dorfbank</de><en>Village Bank</en></title>
+    <description>
+        <de><![CDATA[Dorfbank mit Konten, Sparanlagen, Finanzierung, Leasing und LS25-Standardkredit im ESC-Menü.]]></de>
+        <en><![CDATA[Village bank with accounts, savings, financing, leasing and the native FS25 farm loan in the ESC menu.]]></en>
+    </description>
+	
+	<iconFilename>icon_villageBank.dds</iconFilename>
+	
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/VillageBank.lua"/>
+        <sourceFile filename="scripts/VillageBankSavings.lua"/>
+        <sourceFile filename="scripts/VillageBankFinancing.lua"/>
+        <sourceFile filename="scripts/VillageBankLeasing.lua"/>
+        <sourceFile filename="scripts/VillageBankCredit.lua"/>
+        <sourceFile filename="scripts/VillageBankMenu.lua"/>
+        <sourceFile filename="scripts/VillageBankNetwork.lua"/>
+        <sourceFile filename="scripts/VillageBankDunning.lua"/>
+    </extraSourceFiles>
+
+</modDesc>
