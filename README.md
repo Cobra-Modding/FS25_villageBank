@@ -74,5 +74,4 @@
 - Versicherungsbeiträge und Erstattungen werden protokolliert.
 
 - Multiplayer-Unterstützung.
-
 - Konten, Anlagen, Finanzierungen, Leasingverträge und weitere Daten werden im Savegame gespeichert.
