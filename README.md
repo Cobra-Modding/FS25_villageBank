@@ -1,8 +1,8 @@
 <img width="3840" height="2160" alt="Dorfbank" src="https://github.com/user-attachments/assets/f061757b-2dd1-40a0-9540-33a03224c8c1" />
 
-- Bankname passt sich der Map an, also Dorfbank > Dein Mapname
-
 - Eigenes Banksystem mit separatem Dorfbank-Menü
+
+- Bankname passt sich der Map an, also Dorfbank > Dein Mapname
 
 - Mehrere Bankkonten: Neben dem Hofkonto können zusätzliche Konten angelegt und umbenannt werden.
 
