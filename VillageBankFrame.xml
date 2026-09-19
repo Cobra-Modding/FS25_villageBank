@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GUI name="VillageBankFrame">
+    <GuiElement profile="baseReference">
+        <GuiElement profile="fs25_menuContainer"/>
+    </GuiElement>
+</GUI>

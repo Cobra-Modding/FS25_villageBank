@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUIProfiles>
+    <Profile name="villageBankHeaderMonogram" extends="baseReference" with="anchorTopLeft">
+        <position value="11px -11px"/>
+        <size value="48px 48px"/>
+        <textSize value="20px"/>
+        <textBold value="true"/>
+        <textColor value="$preset_fs25_colorMainDark"/>
+        <textAlignment value="center"/>
+        <textVerticalAlignment value="middle"/>
+    </Profile>
+</GUIProfiles>

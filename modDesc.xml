@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<modDesc descVersion="111">
+    <author>Marcus</author>
+    <version>1.0.0.0</version>
+    <title>
+        <de>Dorfbank</de>
+        <en>Village Bank</en>
+    </title>
+    <description>
+        <de>Dorfbank mit Konten, Sparanlagen, Finanzierung, Leasing, Betriebskredit und integrierter Fahrzeugversicherung. Einheitliches dreispaltiges LS25-Menü.</de>
+        <en>Village Bank with accounts, savings, financing, leasing, farm loan and integrated vehicle insurance in a unified three-column FS25 menu.</en>
+    </description>
+    <iconFilename>icon_villageBank.dds</iconFilename>
+    <multiplayer supported="true" />
+    <l10n>
+        <text name="finance_villageBankFinancing">
+            <de>Finanzierung</de>
+            <en>Financing</en>
+        </text>
+        <text name="finance_villageBankLeasing">
+            <de>Leasing</de>
+            <en>Leasing</en>
+        </text>
+    </l10n>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/VillageBank.lua" />
+        <sourceFile filename="scripts/VillageBankSavings.lua" />
+        <sourceFile filename="scripts/VillageBankFinancing.lua" />
+        <sourceFile filename="scripts/VillageBankLeasing.lua" />
+        <sourceFile filename="scripts/VillageBankCredit.lua" />
+        <sourceFile filename="scripts/VillageBankMenu.lua" />
+        <sourceFile filename="scripts/VillageBankNetwork.lua" />
+        <sourceFile filename="scripts/VillageBankDunning.lua" />
+        <sourceFile filename="scripts/VehicleInsurance.lua" />
+		<sourceFile filename="scripts/VehicleInsuranceNetwork.lua" />
+        <sourceFile filename="scripts/VillageBankInsurance.lua" />
+        <sourceFile filename="scripts/VillageBankUI.lua" />
+    </extraSourceFiles>
+</modDesc>
